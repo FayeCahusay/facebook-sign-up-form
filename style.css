@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: #f3d2c1;
+    
+    
+}
+.logo{
+    position: absolute;
+    height: 70px;
+    width: 200px;
+    left: 5%;
+    padding-top: 8px;
+}
+.login_form{
+    display: flex;
+    position: absolute;
+    font-family: verdana;
+    left: 58%;
+    top: 15px;
+}
+.login_form .email,
+.login_form .password{
+    padding-left: 10px;
+}
+.login_form .email .font,
+.login_form .password .font{
+    font-size: 15px;
+    font-family:'Poppins';
+    padding-bottom: 4px;
+    color: #001858;
+    
+}
+.login_form .email input,
+.login_form .password input{
+    height: 23px;
+    width: 150px;
+    background-color: #fef6e4;
+    padding-left: 5px;
+    border: 1px solid #001858;   
+    border-radius: 4px;
+    outline: none;
+}
+.login_form button{
+    height: 25px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 27px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: #f582ae;
+    
+}
+.login_form button:hover{
+    background: #8bd3dd;
+}
+
+
+section{
+    height: 614px;
+    width: 100%;
+    top: 80px;
+    background: #fef6e4;
+    font-family: 'Poppins';
+}
+.logo_body{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.logo_body .like_font{
+    font-family: 'Mallanna';
+    font-size: 25px;
+    margin-left: -10px;
+    color:#001858;
+}
+.logo_body .font1{
+    color: #001858;
+    margin-left: 20px;   
+    margin-bottom: -10px;
+}
+.signup_body{
+    font-family: 'Mallanna';
+    font-weight: bold;
+    position: absolute;
+    color:#001858;
+    left: 57%;  
+}
+.signup_body .acc_crt{
+    font-family: 'Mallanna';
+    font-size: 45px;
+    margin: 15px 0;
+}
+.signup_body .free_hint{
+    margin: -20px 5px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: lighter;
+}
+.signup_body .signup_form input{
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #001858;
+    background-color: #f3d2c1;
+    border-radius: 4px;
+    font-family: 'Poppins';
+}
+.signup_body .signup_form .lastname{
+    margin-left: 15px;
+    font-family: 'Poppins';
+}
+.signup_body .signup_form .email,
+.signup_body .signup_form .password,
+.signup_body .signup_form .password2{
+    margin-top: 20px;
+    width: 410px;
+    font-family: 'Poppins';
+}
+.signup_body .signup_form .birthday{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #001858;
+}
+.signup_body .signup_form .birth_date{
+    margin-top: 3px;
+}
+.signup_body .signup_form .month,
+.signup_body .signup_form .day,
+.signup_body .signup_form .year{
+    height: 28px;
+    background-color: #f582ae;
+    color: #fef6e4;
+    font-family: 'Poppins';
+}
+.signup_body .signup_form .day,
+.signup_body .signup_form .year{
+    margin-left: -1px;
+}
+.signup_body .signup_form .brth_hint{
+    font-size: 11px;
+    
+    padding-left: 190px;
+    margin-top: -28px;
+    width: 150px;
+}
+.signup_body .signup_form a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: lighter;
+    color:#f582ae;
+
+}
+.signup_body .signup_form a:hover{
+    text-decoration: underline;
+}
+.signup_body .signup_form .gender{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #001858;
+    height: 15px;
+    
+}
+
+.signup_body .signup_form input[type="radio"]{
+    height: 15px;
+    margin-left: -85px;
+    margin-top: 30px;
+}
+.signup_body .signup_form input[value="female"]{
+    margin-left: -100px;
+}
+.signup_body .signup_form .font{
+    margin-left: 35px;
+    margin-top: -28px;
+    font-family: 'Poppins';
+    font-weight: lighter;
+}
+.signup_body .signup_form .font2{
+    margin-left: 125px;
+    margin-top: -24px;
+}
+.signup_body .signup_form .agreement{
+    margin-top: 15px;
+    font-size: 15px;
+    width: 350px;
+    color:#001858;
+    font-family: 'Poppins';
+    font-weight: lighter;
+}
+
+.signup_body .signup_form .signup{
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #001858;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: #f582ae
+}
+.signup_body .signup_form .signup:hover{
+    background: #8bd3dd;
+}
